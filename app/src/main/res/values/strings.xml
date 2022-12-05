@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Astrology Application</string>
+    <string name="msg_already_know_yo">Already know your sign? Skip</string>
+    <string name="msg_there_are_12_zo">There are 12 zodiac signs, and each sign has its own strengths and weaknesses, desires and attitude towards life and people. Analyzing astrology can give us a glimpse of a person\u2019s basic characteristics.</string>
+    <string name="lbl_poly_prediction">Poly Prediction</string>
+    <string name="lbl_find_my_sign">Find my sign</string>
+    <string name="lbl_select_date">Select Date</string>
+    <string name="msg_zodiac_signs_ar">Zodiac Signs are based on one\u2019s birth date.To calculate your sign and see your future, use the \u2018Select Date\u2019 button to enter your birthday then click the \u2018ok\u2019 button when you finish. </string>
+    <string name="msg_enter_your_birt">Enter your birthday</string>
+</resources>
