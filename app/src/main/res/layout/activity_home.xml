@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -68,6 +68,7 @@
             android:textStyle="bold"
             android:textAllCaps="false"
             android:textColor="@color/white"
+            android:onClick="openSignActivity"
             tools:text="@string/lbl_find_my_sign"/>
         <TextView
             android:ellipsize="end"
@@ -86,4 +87,4 @@
             tools:text="@string/msg_already_know_yo"/>
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
