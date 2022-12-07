@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/horoscope_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageBirthdayOne"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            tools:src="@drawable/birthday" />
+
+        <TextView
+            android:id="@+id/txtEnter_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="37dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="1dp"
+            android:singleLine="true"
+            android:text="@string/msg_enter_your_birt"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="@string/msg_enter_your_birt" />
+
+        <TextView
+            android:id="@+id/txtCalc_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="10dp"
+            android:text="@string/msg_zodiac_signs_ar"
+            android:textColor="#898686"
+            android:textStyle="normal|bold"
+            tools:text="@string/msg_zodiac_signs_ar" />
+
+        <TextView
+            android:id="@+id/text_view_date_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btnSelectDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_corner"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="1dp"
+            android:paddingStart="30dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="20dp"
+            android:singleLine="true"
+            android:text="@string/lbl_select_date"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/lbl_select_date" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

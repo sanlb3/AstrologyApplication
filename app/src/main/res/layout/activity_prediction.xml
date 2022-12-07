@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,7 +22,7 @@
             tools:ignore="ContentDescription"
             tools:src="@drawable/leo" />
 
-        </FrameLayout>
+    </FrameLayout>
 
     <TextView
         android:id="@+id/title_sign"
@@ -64,6 +65,7 @@
             android:layout_height="match_parent"
             android:paddingTop="16dp"
             android:paddingLeft="16dp"
+            android:lineSpacingExtra="10dp"
             android:textStyle="bold"
             android:textColor="#898686"
             android:text="@string/test"/>
