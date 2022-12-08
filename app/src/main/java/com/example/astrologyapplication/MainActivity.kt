@@ -56,10 +56,10 @@ class MainActivity : AppCompatActivity() {
         newRecyclerView.setHasFixedSize(true)
 
         newArrayList = arrayListOf<Horoscope>()
-        getUserDate()
+        getUserData()
     }
 
-    private fun getUserDate()
+    private fun getUserData()
     {
         for (i in imageId.indices){
 
