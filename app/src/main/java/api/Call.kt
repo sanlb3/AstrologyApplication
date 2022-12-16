@@ -12,6 +12,7 @@ import java.net.URL
 
 class Call : AppCompatActivity(){
 
+// IDK WHAT IM DOING
 
     suspend fun getPredictions(view: android.view.View) {
     try {
