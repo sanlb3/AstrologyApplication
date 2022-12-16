@@ -35,7 +35,7 @@ class Call : AppCompatActivity(){
             // set host name
             connection.setRequestProperty("x-rapidapi-host", "sameer-kumar-aztro-v1.p.rapidapi.com")
             // set the rapid-api key
-            connection.setRequestProperty("x-rapidapi-key", "<f7c4202742msh1cfd519a066e85dp145fb7jsnc42a2c5d0bb6>")
+            connection.setRequestProperty("x-rapidapi-key", "<key here>")
             connection.setRequestProperty("content-type", "application/x-www-form-urlencoded")
             // set the request method - POST
             connection.requestMethod = "POST"
