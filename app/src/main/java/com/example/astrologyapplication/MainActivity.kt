@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var imageId : Array<Int>
     lateinit var horoscopeName : Array<String>
+    lateinit var predictions: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,6 +52,22 @@ class MainActivity : AppCompatActivity() {
             "Pisces",
         )
 
+        predictions = arrayOf(
+
+            getString(R.string.prediction_a),
+            getString(R.string.prediction_b),
+            getString(R.string.prediction_c),
+            getString(R.string.prediction_d),
+            getString(R.string.prediction_e),
+            getString(R.string.prediction_f),
+            getString(R.string.prediction_g),
+            getString(R.string.prediction_h),
+            getString(R.string.prediction_i),
+            getString(R.string.prediction_j),
+            getString(R.string.prediction_k),
+            getString(R.string.prediction_l)
+        )
+
         newRecyclerView  = findViewById(R.id.recycler_view)
         newRecyclerView.layoutManager = LinearLayoutManager(this)
         newRecyclerView.setHasFixedSize(true)
@@ -72,11 +89,12 @@ class MainActivity : AppCompatActivity() {
         adapter.setOnItemClickListener(object : HoroscopeAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
 
+                val intent = Intent(this@MainActivity, PredictionActivity::class.java)
+                intent.putExtra("signName", newArrayList[position].signName)
+                intent.putExtra("signImg", newArrayList[position].signImg)
+                intent.putExtra("predictions", predictions[position])
+                startActivity(intent)
 
-
-                //Toast.makeText(this@MainActivity,"you clicked on item no. $position", Toast.LENGTH_SHORT).show()
-
-                //val intent = Intent(this@MainActivity)
             }
 
         })

@@ -69,74 +69,98 @@ class DateActivity : AppCompatActivity() {
         if (monthOfYear == 0) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Capricorn"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Aquarius"
+                setContentView(R.layout.activity_prediction)
             }
         } else if (monthOfYear == 1) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Aquarius"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Pieces"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 2) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Pieces"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Aries"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 3) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Aries"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Taurus"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 4) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Taurus"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Gemini"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 5) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Gemini"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Cancer"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 6) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Cancer"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Leo"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 7) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Leo"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Virgo"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 8) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Virgo"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Libra"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 9) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Libra"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Scorpio"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 10) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Scorpio"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Sagittarius"
+                setContentView(R.layout.activity_prediction)
             }
         }else if (monthOfYear == 11) {
             if (dayOfMonth < 20) {
                 dateTextView!!.text = "Sagittarius"
+                setContentView(R.layout.activity_prediction)
             } else {
                 dateTextView!!.text = "Capricorn"
+                setContentView(R.layout.activity_prediction)
             }
         }
     }
