@@ -72,7 +72,9 @@ class MainActivity : AppCompatActivity() {
         adapter.setOnItemClickListener(object : HoroscopeAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
 
-                Toast.makeText(this@MainActivity,"you clicked on item no. $position", Toast.LENGTH_SHORT).show()
+
+
+                //Toast.makeText(this@MainActivity,"you clicked on item no. $position", Toast.LENGTH_SHORT).show()
 
                 //val intent = Intent(this@MainActivity)
             }
